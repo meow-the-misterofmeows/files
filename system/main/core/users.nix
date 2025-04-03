@@ -8,7 +8,7 @@
     mutableUsers = false;
     users = {
       root.password = "a";
-      user = {
+      system = {
         isNormalUser = true;
         password = "a";
         shell = pkgs.zsh;
